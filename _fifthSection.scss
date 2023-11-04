@@ -73,7 +73,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: $cor-secundaria;
+        background-color: $cor-primaria;
 
         &-all {
             margin: 0 auto;
@@ -108,7 +108,7 @@
                 width: 50%;
 
                 a {
-                    @include a-mobile ($cor-primaria, $cor-branco, 300px);
+                    @include a-mobile ($cor-secundaria, $cor-branco, 300px);
 
                     &:hover {
                         background-color: $cor-branco;

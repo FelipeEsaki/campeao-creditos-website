@@ -1404,7 +1404,7 @@ main .carousel-slide img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #08428F;
+    background-color: #EEBA2B;
   }
   .fifth__section-all {
     margin: 0 auto;
@@ -1444,7 +1444,7 @@ main .carousel-slide img {
     text-transform: uppercase;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: #EEBA2B;
+    background-color: #08428F;
     color: #fff;
     font-size: 0.8rem;
     font-weight: 500;
