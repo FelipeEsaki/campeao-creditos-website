@@ -1,44 +1,59 @@
-.servicos {
-    margin: 50px auto;
-    max-width: 1400px;
+#main-servicos {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 
-    .servico {
-        margin: 20px;
-        padding: 20px;
-        width: 300px;
-        height: 300px;
+    h1 {
+        margin: 20px auto;
+        border-bottom: 5px solid $cor-primaria;
+    }
+
+
+    .servicos {
+        margin: 0px auto;
+        max-width: 1400px;
         display: flex;
         justify-content: center;
-        gap: 20px;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        background-color: $cor-branco;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        transition: .5s;
-        cursor: pointer;
+        flex-wrap: wrap;
 
-        h2 {
-            font-size: 1.5rem;
-            color: $cor-primaria;
-            text-align: center;
-        }
+        .servico {
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            height: 420px;
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+            flex-direction: column;
+            align-items: left;
+            transition: .5s;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: $cor-branco;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
-        p {
-            font-size: 1rem;
-            color: $cor-cinza;
-            text-align: center;
-        }
+            img {
+                width: 100%;
+            }
 
-        &:hover {
-            transform: scale(1.1);
+            h2 {
+                font-size: 1.2rem;
+                color: $cor-preto;
+                text-align: left;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $cor-cinza;
+                text-align: left;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 }
-
 
 @media (max-width: 768px) {
     .servicos {
@@ -53,13 +68,13 @@
             margin: 10px;
             padding: 20px;
             width: 300px;
-            height: 300px;
+            height: 400px;
             display: flex;
-            justify-content: center;
+            justify-content: start;
             gap: 10px;
             flex-direction: column;
             align-items: center;
-            border-radius: 20px;
+            border-radius: 10px;
             background-color: $cor-branco;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
             transition: .5s;

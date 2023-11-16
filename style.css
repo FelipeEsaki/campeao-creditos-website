@@ -1063,8 +1063,8 @@ main .carousel-slide img {
   z-index: 998;
 }
 .second__section-conteudo a:hover {
-  background-color: #08428F;
-  color: #08428F;
+  background-color: #EEBA2B;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -1339,7 +1339,7 @@ main .carousel-slide img {
   }
 }
 .fifth__section {
-  max-width: 100%;
+  width: 100%;
   margin: 0px auto;
   margin-top: 50px;
   padding: 50px 50px;
@@ -1662,12 +1662,13 @@ main .carousel-slide img {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 400;
-  color: #08428F;
+  color: #000;
 }
 
 .second__section {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   padding: 0 20px;
   margin: 100px auto;
   gap: 40px;
@@ -1685,7 +1686,7 @@ main .carousel-slide img {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 400;
-  color: #08428F;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -1718,40 +1719,52 @@ main .carousel-slide img {
     color: #08428F;
   }
 }
-.servicos {
-  margin: 50px auto;
+#main-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-servicos h1 {
+  margin: 20px auto;
+  border-bottom: 5px solid #EEBA2B;
+}
+#main-servicos .servicos {
+  margin: 0px auto;
   max-width: 1400px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.servicos .servico {
+#main-servicos .servicos .servico {
   margin: 20px;
   padding: 20px;
   width: 300px;
-  height: 300px;
+  height: 420px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 20px;
   flex-direction: column;
-  align-items: center;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: left;
   transition: 0.5s;
   cursor: pointer;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.servicos .servico h2 {
-  font-size: 1.5rem;
-  color: #EEBA2B;
-  text-align: center;
+#main-servicos .servicos .servico img {
+  width: 100%;
 }
-.servicos .servico p {
+#main-servicos .servicos .servico h2 {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: left;
+}
+#main-servicos .servicos .servico p {
   font-size: 1rem;
   color: #a7a7a7;
-  text-align: center;
+  text-align: left;
 }
-.servicos .servico:hover {
+#main-servicos .servicos .servico:hover {
   transform: scale(1.1);
 }
 
@@ -1768,13 +1781,13 @@ main .carousel-slide img {
     margin: 10px;
     padding: 20px;
     width: 300px;
-    height: 300px;
+    height: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 10px;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     transition: 0.5s;
@@ -2195,4 +2208,5 @@ main .carousel-slide img {
 body {
   background-size: cover;
   background-position: center;
+  background-image: url(assets/bg.jpg);
 }/*# sourceMappingURL=style.css.map */

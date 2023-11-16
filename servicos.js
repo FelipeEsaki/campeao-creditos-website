@@ -1,59 +1,69 @@
 const servicos = [
     {
-        imagem: `//img.icons8.com/color/96/money-bag.png`,
+        imagem: `assets/servicos/consignado.jpg`,
         servico: 'Crédito Consignado',
-        texto: `- Aposentados <br> - Pensionistas <br> - Servidores Públicos <br> - LOAS <br> - SIAPE`
+        texto: `É uma modalidade de empréstimo para aposentados, pensionistas, servidores públicos, na qual as parcelas são descontadas diretamente do benefício, com juros baixíssimos.`
     },
     {
-        imagem: `//img.icons8.com/color/96/get-cash.png`,
+        imagem: `assets/servicos/pessoal.jpg`,
         servico: 'Crédito Pessoal',
         texto: `- Débito na conta de luz <br> - Via cartão de crédito <br> - Débito em conta `
     },
     {
-        imagem: `//img.icons8.com/color/96/farm.png`,
+        imagem: `assets/servicos/rural.png`,
         servico: 'Crédito Rural',
         texto: `O crédito rural é um financiamento que <strong>auxilia produtores rurais</strong> à <strong>expandirem suas operações</strong>, fazer investimentos ou <strong>custear a produção.`
     },
     {
-        imagem: `//img.icons8.com/color/96/cleaning-a-surface.png`,
+        imagem: `assets/servicos/limpa.png`,
         servico: 'Limpa Nome',
         texto: `O limpa nome é um serviço onde todas as suas <strong>dívidas serão colocadas em status de sigilo total</strong> durante 12 meses, elevando seu Score e <strong>facilitando aprovações.`
     },
     {
-        imagem: `//img.icons8.com/fluency/100/security-checked--v1.png`,
+        imagem: `assets/servicos/seguro.png`,
         servico: 'Seguros',
-        texto: `A Agi Capital possui <strong>todos os tipos de seguros</strong> e <strong>mais de 10 seguradoras</strong> parceiras para melhor atender sua necessidade!`
+        texto: `A Campeão Créditos possui <strong>todos os tipos de seguros</strong> e <strong>mais de 10 seguradoras</strong> parceiras para melhor atender sua necessidade!`
     },
     {
-        imagem: `//img.icons8.com/bubbles/100/check.png`,
+        imagem: `assets/servicos/consorcio.jpg`,
         servico: 'Consórcios',
-        texto: `A Agi Capital oferece a <strong>melhor opção de consórcio</strong> de acordo com sua necessidade. Trabalhamos com todos os tipos de consórcios!`
+        texto: `A Capeão Créditos oferece a <strong>melhor opção de consórcio</strong> de acordo com sua necessidade. Trabalhamos com todos os tipos de consórcios!`
     },
     {
-        imagem: `//img.icons8.com/bubbles/100/solar-panel.png`,
+        imagem: `assets/servicos/solar.jpg`,
         servico: 'Energia Solar',
         texto: `Já pensou em <strong>reduzir sua conta de energia em até 95%</strong>? Fazemos seu projeto e financiamento do investimento!`
     },
     {
-        imagem: `//img.icons8.com/stickers/100/cash.png`,
+        imagem: `assets/servicos/capital.jpg`,
         servico: 'Capital de Giro',
-        texto: `O capital de giro é um produto para <strong>atender as necessidades de caixa da sua empresa</strong> e <strong>custear o ciclo operacional</strong> para te ajudar a honrar com seus compromissos!`
+        texto: `O capital de giro é um produto para <strong>atender as necessidades de caixa da sua empresa</strong> e <strong>custear o ciclo operacional</strong>! Ou contrate nossa consultoria tributária para recuperação de tributos pagos!`
     },
     {
-        imagem: `//img.icons8.com/bubbles/100/car.png`,
+        imagem: `assets/servicos/carro.jpg`,
         servico: 'Financiamento Veicular',
-        texto: `Está na hora de adquirir seu <strong>novo veículo</strong>! Com a Agi Capital você tem as <strong>melhores taxas</strong> e opções de financiamento!`
+        texto: `Está na hora de adquirir seu <strong>novo veículo</strong>! Com a Campeão Créditos você tem as <strong>melhores taxas</strong> e opções de financiamento!`
     },
     {
-        imagem: `//img.icons8.com/clouds/100/cottage.png`,
+        imagem: `assets/servicos/casa.jpg`,
         servico: 'Financiamento Residencial',
-        texto: `Está na hora de adquirir sua <strong>nova casa</strong>! Com a Agi Capital você tem as <strong>melhores taxas</strong> e opções de financiamento e refinanciamento residencial!`
+        texto: `Está na hora de adquirir sua <strong>nova casa</strong>! Com a Campeão Créditos você tem as <strong>melhores taxas</strong> e opções de financiamento, refinanciamento e carta fiança!`
+    },
+    {
+        imagem: `assets/servicos/conta.jpg`,
+        servico: 'Abertura de conta',
+        texto: `Abra sua conta bancária <strong>sem custo</strong>! Com a Campeão Créditos você tem os <strong>melhores bancos</strong> para abrir sua conta bancária digital!`
+    },
+    {
+        imagem: `assets/servicos/medicina.jpg`,
+        servico: 'Tele Medicina',
+        texto: `Faça seu plano de saúde Tele Medicina e faça suas <strong>consultas no conforto da sua casa</strong>! `
     },
 ];
 
 for (const servico of servicos) {
     const content = `<div class="servico">
-    <img width="96" height="96" src="https:${servico.imagem}" alt="get-cash--v1"/>
+    <img src="${servico.imagem}"/>
     <h2>${servico.servico}</h2>
     <p>${servico.texto} </p>
 </div>`
