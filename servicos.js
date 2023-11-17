@@ -59,6 +59,16 @@ const servicos = [
         servico: 'Tele Medicina',
         texto: `Faça seu plano de saúde Tele Medicina e faça suas <strong>consultas no conforto da sua casa</strong>! `
     },
+    {
+        imagem: `assets/servicos/consultoria.jpg`,
+        servico: 'Consultoria Tributária',
+        texto: `A consultoria tributária consiste em orientar empresas na interpretação das leis fiscais, <strong>otimizando estratégias para reduzir a carga tributária</strong> e assegurar a conformidade legal.`
+    },
+    {
+        imagem: `assets/servicos/maquina.jpg`,
+        servico: 'Maquininha de Cartão',
+        texto: `A Campeão Créditos oferece <strong>diversas opções de maquininha de cartão</strong> com as <strong>melhores taxas</strong> do mercado! `
+    },
 ];
 
 for (const servico of servicos) {
