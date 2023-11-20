@@ -27,7 +27,7 @@ const servicos = [
     {
         imagem: `assets/servicos/consorcio.jpg`,
         servico: 'Consórcios',
-        texto: `A Capeão Créditos oferece a <strong>melhor opção de consórcio</strong> de acordo com sua necessidade. Trabalhamos com todos os tipos de consórcios!`
+        texto: `A Campeão Créditos oferece a <strong>melhor opção de consórcio</strong> de acordo com sua necessidade. Trabalhamos com todos os tipos de consórcios!`
     },
     {
         imagem: `assets/servicos/solar.jpg`,
@@ -37,7 +37,7 @@ const servicos = [
     {
         imagem: `assets/servicos/capital.jpg`,
         servico: 'Capital de Giro',
-        texto: `O capital de giro é um produto para <strong>atender as necessidades de caixa da sua empresa</strong> e <strong>custear o ciclo operacional</strong>! Ou contrate nossa consultoria tributária para recuperação de tributos pagos!`
+        texto: `O capital de giro é um produto para <strong>atender as necessidades de caixa da sua empresa</strong> e <strong>custear o ciclo operacional</strong>!`
     },
     {
         imagem: `assets/servicos/carro.jpg`,
