@@ -62,7 +62,7 @@ const servicos = [
     {
         imagem: `assets/servicos/consultoria.jpg`,
         servico: 'Consultoria Tributária',
-        texto: `A consultoria tributária consiste em orientar empresas na interpretação das leis fiscais, <strong>otimizando estratégias para reduzir a carga tributária</strong> e assegurar a conformidade legal.`
+        texto: `Oferecemos consultoria tributária para redução de carga fiscal e conformidade legal, incluindo Recuperação Tributária para maximizar benefícios financeiros, com consultores especializados em planejamento fiscal.`
     },
     {
         imagem: `assets/servicos/maquina.jpg`,

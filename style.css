@@ -1478,7 +1478,7 @@ main .carousel-slide img {
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 #footer .footer__content .footer__logo img {
   width: 60%;
@@ -1493,6 +1493,7 @@ main .carousel-slide img {
 #footer .footer__content .footer__logo .icons {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 #footer .footer__content .footer__logo .icons a {
   color: #EEBA2B;
@@ -1503,7 +1504,6 @@ main .carousel-slide img {
 }
 #footer .footer__content .footer__logo .icons a i {
   font-size: 1.5rem;
-  margin: 0 10px;
   color: #EEBA2B;
   transition: 0.5s;
 }
@@ -2039,7 +2039,7 @@ main .carousel-slide img {
   align-items: center;
 }
 .section__contato .contato {
-  margin: 0 20px;
+  margin: 0 50px;
   max-width: 400px;
   padding: 20px;
   height: 600px;
@@ -2052,7 +2052,7 @@ main .carousel-slide img {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .section__contato .contato h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 .section__contato .contato .info {
@@ -2066,7 +2066,7 @@ main .carousel-slide img {
 .section__contato .contato .info .informacoes {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
 .section__contato .contato .info i {
   width: 60px;
@@ -2083,7 +2083,7 @@ main .carousel-slide img {
   font-weight: 400;
 }
 .section__contato .contato .info span {
-  font-weight: 600;
+  font-weight: 500;
 }
 .section__contato .form {
   margin: 0 20px;
